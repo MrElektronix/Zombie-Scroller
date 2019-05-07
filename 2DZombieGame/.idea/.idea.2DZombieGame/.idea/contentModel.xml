@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\Xonar\.Rider2018.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Xonar\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_2DZombieGame.1245580145.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Xonar\.Rider2019.1\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Xonar\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_2DZombieGame.1245580145.00" t="ExcludeRecursive" />
     <e p="C:\Users\Xonar\OneDrive\Documents\GitHub\Zombie-Scroller\2DZombieGame" t="IncludeRecursive">
       <e p="2DZombieGame.sln" t="IncludeFlat" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
@@ -10,14 +10,14 @@
         <e p="Scripts" t="Include">
           <e p="CharacterBase.cs" t="Include" />
           <e p="Player.cs" t="Include" />
+          <e p="Projectile.cs" t="Include" />
+          <e p="Weapon.cs" t="Include" />
+          <e p="ZombieSlayer.cs" t="Include" />
         </e>
       </e>
-      <e p="Library" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="packages" t="ExcludeRecursive" />
-      <e p="Temp" t="ExcludeRecursive">
-        <e p="bin" t="ExcludeRecursive" />
-      </e>
+      <e p="Temp\bin" t="ExcludeRecursive" />
     </e>
   </component>
 </project>

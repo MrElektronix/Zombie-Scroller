@@ -10,7 +10,6 @@ public abstract class CharacterBase : MonoBehaviour
     
     protected int Lives { get; set; }
     protected float Speed { get; set; }
-
-
+    
     public abstract void Move();
 }
