@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(Rigidbody2D))]
+[RequireComponent(typeof(Rigidbody))]
 public class Projectile : MonoBehaviour
 {
     private float _velocity;
@@ -31,10 +31,7 @@ public class Projectile : MonoBehaviour
 
     private IEnumerator DestroyProjectileTimer()
     {
-        while (true)
-        {
-            yield return new WaitForSeconds(_destroyAfterSeconds);
-            Destroy(gameObject);
-        }
+        yield return new WaitForSeconds(_destroyAfterSeconds);
+        Destroy(gameObject);
     }
 }

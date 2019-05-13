@@ -7,13 +7,9 @@ public class ZombieSlayer : Weapon{
 
     private void Awake()
     {
-        CanShoot = true;
-        FireRate = 0.2f;
+        FireRate = 0.5f;
         DamagePerSecond = 10f;
-    }
-    
-    private void Update()
-    {
-        base.FireProjectile();
+        MaxAmmo = 10;
+        ReloadTime = 3f;
     }
 }
